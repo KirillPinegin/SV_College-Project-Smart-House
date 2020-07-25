@@ -1,0 +1,19 @@
+.add-room {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  min-height: 300px;
+}
+
+.add-room > div {
+  margin-bottom: 20px;
+}
+
+.add-room button {
+  padding: 5px 7px;
+  border-radius: 3px;
+  background-color: rgba(100, 100, 255, 0.5);
+}

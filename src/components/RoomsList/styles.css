@@ -1,0 +1,37 @@
+.rooms-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+  min-height: 300px;
+}
+
+.rooms-list .rooms {
+  display: flex;
+}
+
+.rooms-list .rooms .room-card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 20px -1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.button-bar button {
+  padding: 5px 7px;
+  border-radius: 3px;
+  background-color: rgba(100, 100, 255, 0.5);
+}

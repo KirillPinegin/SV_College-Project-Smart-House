@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+}
+
+.header > a,
+.header > a:visited,
+.header > a:active {
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header > a:hover{
+    text-shadow: black 0px 0px 10px;
+}
